@@ -1,0 +1,44 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+.out/
+.next/
+.vite/
+
+# Logs
+*.log
+*.tsbuildinfo
+
+# dotenv
+.env
+.env.*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# VS Code settings (optional, if using)
+*.code-workspace
+
+# Optional lock files (choose one if not both)
+package-lock.json
+# yarn.lock  <-- se usar apenas `npm`, ignore o `yarn.lock`
+
+# Typescript cache
+*.tsbuildinfo
+
+# Testing / coverage
+coverage/
+
+# Local preview / dev server
+*.local
+*.preview
